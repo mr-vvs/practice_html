@@ -1,0 +1,18 @@
+body{
+    min-height: 100vh;
+    background-color: aliceblue;
+    background-image: url(../images/image1.png), linear-gradient(red,yellow,orange,green,blue,#8102f8,violet );
+    background-repeat: repeat-y, no-repeat;
+    background-position: right;
+    background-size:10%,auto;
+}
+.clip{
+    font-weight: 800g;
+    font-size:18rem;
+    text-align: center;
+    background-image: url(../images/image2.png);
+    background-size: 100%;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    color:hsla(0, 0%, 0%, 0.075)
+}

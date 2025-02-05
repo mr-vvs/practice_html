@@ -1,0 +1,33 @@
+body{
+    background-image: url('../images/image.png');
+    background-attachment:fixed;
+    background-size:contain;
+    background-size:100% 100%;
+    margin-left:470px;
+}
+img{
+    margin-left: 40px;
+}
+table{
+    border: 2px solid black;
+    border-collapse:collapse;
+    margin-left:10px    
+}
+th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding:10px;
+    width:40%;
+    height:60%;
+    background-color: blanchedalmond;
+    
+}
+th:hover,td:hover{
+    background-color:rgb(194, 35, 14);
+}
+header{
+    border:2px solid black;
+    margin-right:58%;
+    padding:10px;
+    background-color: rgba(137, 117, 50, 0.829);
+}

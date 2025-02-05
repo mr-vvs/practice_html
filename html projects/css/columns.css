@@ -1,0 +1,34 @@
+body{
+    line-height: 1.5;
+    margin-top:25px;
+    margin-right:200px;
+}
+ /*.block{
+    width:7rem;
+    height: 7rem;
+    background-color: black;
+    color:white;
+    padding:10px;
+    font-size:large;
+    float:left;
+    margin-right:20px;
+}*/
+.clear{
+    clear:both;
+}
+/*section{
+    background-color:papayawhip;
+    border:2px dashed grey;
+    display:flow-root;
+}*/
+p{
+    text-align: justify;
+}
+.columns{
+    column-count:4;
+}
+h2{
+    font-size:2rem;
+    background-color:grey;
+    color:#fff;
+}
