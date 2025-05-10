@@ -1,0 +1,105 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-color:rgb(190, 186, 124);
+    margin-top:8rem;
+    padding:5px;
+}
+header{
+    margin-top:15px;
+}
+section#openpage{
+    background-color:rgb(230, 198, 198);
+    width:140px;
+    height:130px;
+    padding-top:60px;
+    padding-left:70px;
+    border-radius:10px;
+    box-shadow:4px 4px 4px rgb(29, 24, 24),4px 4px 4px rgb(236, 3, 3);
+}
+input{
+    width:70px;
+    height:30px;
+    margin-bottom:8px;
+    margin-right:0px;
+    background-color:rgb(209, 214, 196);
+    border:2px solid black;
+    border-radius:5px;
+}
+img{
+    width:60px;
+    height:55px;
+    margin-top:-40px;
+}
+button#start{
+    background-color:rgb(95, 156, 212);
+    width:80px;
+    height:30px;
+    border-radius:5px;
+}
+button#start:active{
+    transform:scale(0.9);
+    animation-delay: 0.5s;
+}
+section#closepage{
+    background-color:rgb(230, 198, 198);
+    padding:50px;
+    border-radius:10px;
+    box-shadow:4px 4px 4px black;
+}
+#playera,#playerb{
+    margin-bottom:8px;
+    width:80px;
+    background-color:rgb(105, 3, 3);
+    color:rgb(232, 241, 231);
+    font-weight:bold;
+    padding:4px;
+    border:2px solid black;
+    box-shadow:3px 3px 3px black;
+    border-radius:5px;
+}
+#playera:active,#playerb:active,#newgame:active{
+    transform:scale(0.85);
+}
+#t1,#t2{
+    width:120px;
+    height:80px;
+    float:left;
+    padding:50px;
+    margin:20px;
+    padding-top:5px;
+    background-color:rgb(201, 209, 81);
+    border-radius:20px;
+    box-shadow:4px 4px 4px rgb(29, 24, 24),4px 4px 4px rgb(236, 3, 3);
+}
+.runs{
+    text-align:center;
+    font-weight: bold;
+    font-size:20px;
+}
+.imag{
+    text-align:center;
+    padding-bottom:8px;
+}
+#newgame{
+    background-color: rgb(248, 4, 4);
+    color:rgb(230, 226, 215);
+    font-size:15px;
+    width:80px;
+    margin-top:15px;
+    border-radius:8px;
+}
+.newgame{
+    margin-top:15px;
+    text-align:center;
+}
+#player1,#player2{
+    float:left;
+    font-weight:bold;
+}
+#comment{
+    font-weight:bold;
+    text-align:center;
+    font-style:italic;
+    font-size:18px;
+}

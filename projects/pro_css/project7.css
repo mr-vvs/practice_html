@@ -1,0 +1,64 @@
+body{
+    background:url(../pro_images/coinblack.png) no-repeat center center/ cover;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.toss{
+    background-color: #c0c0c0;
+    border-radius: 50%;
+    border:3px solid hsl(0, 2%, 39%);
+    box-shadow: 0 0 2px black;
+    font-size:30px;
+    width:200px;
+    height:200px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    animation:animationedmodel;
+}
+/* .toss::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: url(../pro_images/coin-border.png) no-repeat center center/fill ;
+    border-radius: 50%;
+    z-index: -1;  
+} */
+button{
+    background-color: rgb(207, 207, 29);
+    font-size:20px;
+    border-radius:5px;
+    padding:7px;
+    position:absolute;
+    bottom:28%;
+    width:75px;
+}
+.display{
+    font-size:80px;
+    text-shadow: 2px 3px 3px black;
+    color:rgb(58, 55, 48);
+    position:relative;
+}
+img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background-color:silver ;
+    position:absolute;
+    top:13%;
+    left:13%;
+    filter: hue-rotate(90deg);
+}

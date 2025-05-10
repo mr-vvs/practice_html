@@ -1,0 +1,36 @@
+body{
+    padding:5px;
+    padding-right:10px;
+    box-sizing: border-box;
+    text-align:center;
+    background-color:rgb(225, 235, 231);
+}
+input{
+    width:100%;
+    margin:5px;
+    background-color:papayawhip;
+    border:1px solid grey;
+    height:20px;
+    border-radius:5px;
+}
+button{
+    margin-left:5px;
+    padding:6px;
+    background-color:rgb(34, 131, 34);
+    color:white;
+    font-weight:bold;
+    border:none;
+    box-shadow:2px 2px 2px black;
+}
+button:active{
+    transform:scale(0.9);
+}
+ul{
+    list-style: none;
+}
+#clear{
+    background-color:red;
+}
+#remove{
+    background-color: rgb(136, 136, 29);
+}

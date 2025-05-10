@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Game</title>
+    <link rel="stylesheet" href="./pro_css/circket.css">
+</head>
+<body>
+
+    <!-- Initial Section (First Screen) -->
+    <section id="openpage">
+        <img src="./pro_images/circket.png" alt="">
+        <br><br>
+        <form>
+            <input type="text" id="players_no" placeholder="Enter no. of players in each team" autocomplete="off">
+        </form>
+        <button id="start" onclick="startGame()">START</button>
+    </section>
+
+    <!-- Game Section (Hidden Initially) -->
+    <section id="closepage" style="display: none;">
+        <p class="imag"><img src="./pro_images/circket.png" alt=""></p>
+        <div class="runs">Runs:&nbsp;&nbsp;<span id="runs"></span></div>
+        <section id="t1">
+            <button id="playera" onclick="Teama()">Team A</button>
+            <div id="player1">Score:&nbsp;<span id="score1"></span><br><br>Wickets:&nbsp;<span id="w1"></span></div>
+        </section>
+        <section id="t2">
+            <button id="playerb" onclick="Teamb()" disabled>Team B</button>
+            <div id="player2">Score:&nbsp;<span id="score2"></span><br><br>Wickets:&nbsp;<span id="w2"></span></div>
+        </section>
+        <p id="comment" style="display:none"></p>
+        <p class="newgame"><button id="newgame" onclick="newGame()">New Game</button></p>
+    </section>
+
+    <script src="./pro_js/1page_circket.js"></script>
+
+</body>
+</html>
